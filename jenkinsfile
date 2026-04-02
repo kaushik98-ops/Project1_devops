@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         git branch: 'main',
-            credentialsId: 'your-git-credentials-id',
+            credentialsId: 'kaushik98-ops',
             url: 'https'                          
       }
     }
