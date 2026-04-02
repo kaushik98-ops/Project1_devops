@@ -10,7 +10,7 @@ pipeline {
       steps {
         git branch: 'main',
             credentialsId: 'your-git-credentials-id',
-            url: 'https':                           
+            url: 'https'                          
       }
     }
     stage('Terraform Init') {
